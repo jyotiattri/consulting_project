@@ -242,17 +242,17 @@ p {
 
 /* line 42, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
 .bg-img-1 {
-  background-image: url(assets/img/slider/slider-img-1.jpg);
+  background-image: url(~@/assets/img/banner/img.png);
 }
 
 /* line 45, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
 .bg-img-2 {
-  background-image: url(assets/img/background-img/bg-img-2.jpg);
+  background-image: url(~@/assets/img/banner/img.png);
 }
 
 /* line 48, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
 .cta-bg-1 {
-  background-image: url(assets/img/background-img/bg-img-3.jpg);
+  background-image: url(~@/assets/img/banner/img.png);
 }
 
 /* line 53, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
@@ -3560,7 +3560,7 @@ hero-btn {
 
 /* line 31, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_h1-hero.scss */
 .slider-area2 {
-  background-image: url(assets/img/hero/hero2.jpg);
+  background-image: url(~@/assets/img/hero/hero2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -3568,7 +3568,7 @@ hero-btn {
 /* line 37, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_h1-hero.scss */
 .slider-area {
   margin-top: -1px;
-  background-image: url(assets/img/hero/h1_hero.jpg);
+  background-image: url(~@/assets/img/hero/h1_hero.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -6694,17 +6694,17 @@ hero-btn {
 
 /* line 1, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_bradcam.scss */
 .breadcam_bg {
-  background-image: url(assets/img/banner/bradcam.png);
+  background-image: url(~@/assets/img/banner/img.png);
 }
 
 /* line 4, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_bradcam.scss */
 .breadcam_bg_1 {
-  background-image: url(assets/img/banner/bradcam2.png);
+  background-image: url(~@/assets/img/banner/img.png);
 }
 
 /* line 7, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_bradcam.scss */
 .breadcam_bg_2 {
-  background-image: url(assets/img/banner/bradcam3.png);
+  background-image: url(~@/assets/img/banner/img.png);
 }
 
 /* line 10, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_bradcam.scss */
@@ -7880,7 +7880,7 @@ del {
 
 /* line 766, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_elements.scss */
 .primary-checkbox input:checked + label {
-  background: url(assets/img/elements/primary-check.png) no-repeat center center/cover;
+  background: url(~@/assets/img/elements/primary-check.png) no-repeat center center/cover;
   border: none;
 }
 
@@ -7922,7 +7922,7 @@ del {
 
 /* line 803, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_elements.scss */
 .confirm-checkbox input:checked + label {
-  background: url(assets/img/elements/success-check.png) no-repeat center center/cover;
+  background: url(~@/assets/img/elements/success-check.png) no-repeat center center/cover;
   border: none;
 }
 
@@ -7970,7 +7970,7 @@ del {
 
 /* line 844, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_elements.scss */
 .disabled-checkbox input:checked + label {
-  background: url(assets/img/elements/disabled-check.png) no-repeat center center/cover;
+  background: url(~@/assets/img/elements/disabled-check.png) no-repeat center center/cover;
   border: none;
 }
 
@@ -8012,7 +8012,7 @@ del {
 
 /* line 881, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_elements.scss */
 .primary-radio input:checked + label {
-  background: url(assets/img/elements/primary-radio.png) no-repeat center center/cover;
+  background: url(~@/assets/img/elements/primary-radio.png) no-repeat center center/cover;
   border: none;
 }
 
@@ -8054,7 +8054,7 @@ del {
 
 /* line 918, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_elements.scss */
 .confirm-radio input:checked + label {
-  background: url(assets/img/elements/success-radio.png) no-repeat center center/cover;
+  background: url(~@/assets/img/elements/success-radio.png) no-repeat center center/cover;
   border: none;
 }
 
@@ -8102,7 +8102,7 @@ del {
 
 /* line 959, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_elements.scss */
 .disabled-radio input:checked + label {
-  background: url(assets/img/elements/disabled-radio.png) no-repeat center center/cover;
+  background: url(~@/assets/img/elements/disabled-radio.png) no-repeat center center/cover;
   border: none;
 }
 

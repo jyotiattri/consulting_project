@@ -40,22 +40,22 @@ export default {
     return {
       members: [
         {
-          memberimage: "assets/img/gallery/team1.png",
+          memberimage: require("@/assets/img/gallery/team1.png"),
           membername: "Robert",
-          memberdetails: "UX Designer",
+          memberdetails: "UX Designer"
         },
         {
-          memberimage: "assets/img/gallery/team2.png",
+          memberimage: require("@/assets/img/gallery/team2.png"),
           membername: "Charles",
-          memberdetails: "Frontend Developer",
+          memberdetails: "Frontend Developer"
         },
         {
-          memberimage: "assets/img/gallery/team3.png",
+          memberimage: require("@/assets/img/gallery/team3.png"),
           membername: "Harry",
-          memberdetails: "Marketing Head",
-        },
-      ],
+          memberdetails: "Marketing Head"
+        }
+      ]
     };
-  },
+  }
 };
 </script>
