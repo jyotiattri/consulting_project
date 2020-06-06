@@ -8,7 +8,7 @@
               <div class="header-info-left">
                 <ul>
                   <li>
-                    <i class="far fa-clock"></i> Mon - SAT: 6.00 am - 10.00 pm
+                    <font-awesome-icon icon="clock" /> Mon - SAT: 6.00 am - 10.00 pm
                   </li>
                   <li>Sun: Closed</li>
                 </ul>
@@ -16,7 +16,7 @@
               <div class="header-info-right">
                 <ul class="header-social">
                   <li>
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><font-awesome-icon icon="facebook" /></a>
                   </li>
                   <li>
                     <a href="#"><i class="fab fa-twitter"></i></a>
@@ -40,7 +40,7 @@
             <div class="col-xl-2 col-lg-2">
               <div class="logo">
                 <a href="index.html"
-                  ><img src="assets/img/logo/logo.png" alt=""
+                  ><img src=require("@/assets/img/logo/logo.png") alt=""
                 /></a>
               </div>
             </div>
