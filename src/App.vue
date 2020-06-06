@@ -21,3 +21,5 @@ export default {
 
 <style lang="css" src="./styles/style.css"></style>
 <style lang="css" src="./styles/bootstrap.min.css"></style>
+<style lang="css" src="./styles/flaticon.css"></style>
+<style lang="css" src="./styles/fontawesome-all.min.css"></style>
