@@ -1,5 +1,5 @@
 <template>
-    <div class="footer-area section-bg" data-background="assets/img/gallery/footer_bg.jpg">
+    <div class="footer-area section-bg" :style="cssProps" >
     <div class="container">
         <div class="footer-top footer-padding">
             <div class="row d-flex justify-content-between">
@@ -105,6 +105,13 @@
 </template>
 <script>
 export default {
-    name: "Footer",
+    name: "Footer", 
+  data() {
+      return {
+        cssProps: {
+          backgroundImage: `url(${require('@/assets/img/gallery/footer_bg.jpg')})`
+        }
+      }
+    }
 }
 </script>

@@ -1,5 +1,5 @@
  <template>
-     <section class="wantToWork-area w-padding2 section-bg" data-background="viaJs">
+     <section class="wantToWork-area w-padding2 section-bg" :style="cssProps">
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-xl-7 col-lg-9 col-md-8">
@@ -20,8 +20,10 @@ export default {
     name: "WanttoworkComponent",
      data() {
     return {
-     viaJs: require("../assets/img/gallery/section_bg03.jpg") 
+        cssProps: {
+          backgroundImage: `url(${require('@/assets/img/gallery/section_bg03.jpg')})`
+        }
     }
-    }
+}
 }
 </script>

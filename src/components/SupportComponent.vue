@@ -1,5 +1,5 @@
  <template>
-    <div class="support-company-area pt-100 pb-100 section-bg fix"  :style="{ backgroundImage: 'url(' + require('@/assets/images/gallery/section_bg02.jpg') + ')' }">
+    <div class="support-company-area pt-100 pb-100 section-bg fix" :style="cssProps">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-xl-6 col-lg-6">
@@ -34,14 +34,10 @@ export default {
   data() {
     return {
      viaJs: require("../assets/img/gallery/about.png"),
+        cssProps: {
+          backgroundImage: `url(${require('@/assets/img/gallery/section_bg02.jpg')})`
+        }
+      }
     }
     }
-   
-}
 </script>
-<style>
-.right-caption .section-tittle2 h2 {
-    color: #000;
-}
-
-</style>
