@@ -8,7 +8,8 @@
               <div class="header-info-left">
                 <ul>
                   <li>
-                    <font-awesome-icon icon="clock" /> Mon - SAT: 6.00 am - 10.00 pm
+                    <font-awesome-icon icon="clock" /> Mon - SAT: 6.00 am -
+                    10.00 pm
                   </li>
                   <li>Sun: Closed</li>
                 </ul>
@@ -16,16 +17,26 @@
               <div class="header-info-right">
                 <ul class="header-social">
                   <li>
-                    <a href="#"><font-awesome-icon icon="facebook" /></a>
+                    <a href="#"
+                      ><font-awesome-icon
+                        :icon="{ prefix: 'fab', iconName: 'facebook' }"
+                    /></a>
                   </li>
                   <li>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"
+                    ><font-awesome-icon 
+                      :icon="{ prefix: 'fab', iconName: 'twitter' }"
+                    /></a>
                   </li>
                   <li>
-                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><font-awesome-icon 
+                      :icon="{ prefix: 'fab', iconName: 'linkedin' }"
+                    /></a>
                   </li>
                   <li>
-                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#"><font-awesome-icon 
+                      :icon="{ prefix: 'fab', iconName: 'google-plus' }"
+                    /></a>
                   </li>
                 </ul>
               </div>
@@ -40,8 +51,8 @@
             <div class="col-xl-2 col-lg-2">
               <div class="logo">
                 <a href="index.html"
-                  ><img src=require("@/assets/img/logo/logo.png") alt=""
-                /></a>
+                  ><img src=require(@/assets/img/logo/logo.png) alt="" /></a
+                >
               </div>
             </div>
             <div class="col-xl-10 col-lg-10">
@@ -82,6 +93,6 @@
 
 <script>
 export default {
-  name: "Header"
+  name: "Header",
 };
 </script>

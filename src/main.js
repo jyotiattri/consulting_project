@@ -6,10 +6,15 @@ import "popper.js";
 import "bootstrap/dist/js/bootstrap";
 
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { faClock, faFacebook, faCoffee} from "@fortawesome/free-solid-svg-icons";
+import { faClock} from "@fortawesome/free-solid-svg-icons";
+import { faFacebook, faTwitter, faLinkedin, faGooglePlus } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
-library.add(faClock, faFacebook, faCoffee)
+library.add(faClock);
+library.add(faFacebook);
+library.add(faTwitter);
+library.add(faLinkedin);
+library.add(faGooglePlus);
 
 Vue.component("font-awesome-icon", FontAwesomeIcon);
 
