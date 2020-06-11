@@ -84,10 +84,18 @@
                 <div class="col-xl-3 col-lg-4">
                     <!-- Footer Social -->
                     <div class="footer-social f-right">
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fas fa-globe"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><font-awesome-icon 
+                      :icon="{ prefix: 'fab', iconName: 'twitter' }"
+                    /></a>
+                        <a href="#"><font-awesome-icon
+                        :icon="{ prefix: 'fab', iconName: 'facebook' }"
+                    /></a>
+                        <a href="#"><font-awesome-icon 
+                      :icon="{ prefix: 'fab', iconName: 'linkedin' }"
+                    /></a>
+                        <a href="#"><font-awesome-icon 
+                      :icon="{ prefix: 'fab', iconName: 'google-plus' }"
+                    /></a>
                     </div>
                 </div>
             </div>
