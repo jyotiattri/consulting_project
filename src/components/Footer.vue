@@ -7,7 +7,7 @@
                     <div class="single-footer-caption mb-50">
                         <!-- logo -->
                         <div class="footer-logo">
-                            <a href="index.html"><img src="assets/img/logo/logo2_footer.png" alt=""></a>
+                            <a href="index.html"><img  :src="viaJs" alt=""></a>
                         </div>
                         <div class="footer-tittle">
                             <div class="footer-pera">
@@ -108,6 +108,7 @@ export default {
     name: "Footer", 
   data() {
       return {
+          viaJs: require("../assets/img/logo/logo2_footer.png"),
         cssProps: {
           backgroundImage: `url(${require('@/assets/img/gallery/footer_bg.jpg')})`
         }
