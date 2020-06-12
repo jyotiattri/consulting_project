@@ -51,7 +51,7 @@
             <div class="col-xl-2 col-lg-2">
               <div class="logo">
                 <a href="index.html"
-                  ><img src=require(@/assets/img/logo/logo.png) alt="" /></a
+                  ><img :src="viaJs" alt="" /></a
                 >
               </div>
             </div>
@@ -94,5 +94,10 @@
 <script>
 export default {
   name: "Header",
+  data() {
+    return {
+     viaJs: require("../assets/img/logo/logo.png"),
+      }
+    }
 };
 </script>
