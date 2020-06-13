@@ -1,18 +1,12 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import BlastoiseCard from "./components/BlastoiseCard";
-import CharizardCard from "./components/CharizardCard";
-import VenusaurCard from "./components/VenusaurCard";
-import NotFound from "./components/NotFound";
+import Home from "../src/assets/Home.vue";
 
 Vue.use(VueRouter);
 
 const routes = [
-  { path: "/", component: CharizardCard },
-  { path: "/charizard", component: CharizardCard },
-  { path: "/blastoise", component: BlastoiseCard },
-  { path: "/venusaur", component: VenusaurCard },
-  { path: "*", component: NotFound }
+  { path: "/", page: Home },
+  { path: "/BlogComponent", component: BlogComponent },
 ];
 
 export default new VueRouter({
