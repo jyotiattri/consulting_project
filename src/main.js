@@ -4,6 +4,7 @@ import App from "./App.vue";
 import "popper.js";
 // import Bootstrap from "bootstrap";
 import "bootstrap/dist/js/bootstrap";
+import router from './router';
 
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faClock} from "@fortawesome/free-solid-svg-icons";
@@ -22,6 +23,6 @@ Vue.component("font-awesome-icon", FontAwesomeIcon);
 Vue.config.productionTip = false;
 
 new Vue({
-  render: h => h(App)
-
+  render: h => h(App),
+  router
 }).$mount("#app");
