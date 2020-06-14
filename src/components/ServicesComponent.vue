@@ -45,17 +45,17 @@ export default {
         },
         {
           itemimage: require("@/assets/img/gallery/services2.png"),
-          itemname: "Strategy planing",
+          itemname: "Insurance Service",
           itemdetails: "Within the construction industry as their overdraft",
         },
         {
           itemimage: require("@/assets/img/gallery/services3.png"),
-          itemname: "Strategy planing",
+          itemname: "Audit & Evaluation",
           itemdetails: "Within the construction industry as their overdraft",
         },
         {
           itemimage: require("@/assets/img/gallery/services4.png"),
-          itemname: "Strategy planing",
+          itemname: "Documentation",
           itemdetails: "Within the construction industry as their overdraft",
         },
       ],
