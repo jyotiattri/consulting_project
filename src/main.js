@@ -1,5 +1,5 @@
 import Vue from "vue";
-import Home from "../src/assets/Home.vue";
+import Home from "../src/pages/Home.vue";
 // import jquery from "jquery";
 import "popper.js";
 // import Bootstrap from "bootstrap";
