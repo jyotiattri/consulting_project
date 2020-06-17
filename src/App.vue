@@ -14,6 +14,44 @@
             About Us
           </a>
         </li>
+        <li>
+          <a
+            href="service.html"
+          >
+            Services
+          </a>
+        </li>
+        <li>
+          <a
+            href="blog.html"
+          >
+            Blog
+          </a>
+          <ul class="submenu">
+            <li>
+          <a
+            href="blog_details.html"
+          >
+           Blog-Details
+          </a>
+            </li>
+              <li>
+          <a
+            href="elements.html"
+          >
+            Elements
+          </a>
+            </li>
+          </ul>
+        </li>
+       <li>
+          <a
+            href="contact.html"
+          >
+            Contact
+          </a>
+        </li>
+        
       </ul>
                   </nav>
                 </div>
