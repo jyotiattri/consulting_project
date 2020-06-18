@@ -94,10 +94,6 @@
 <script>
 export default {
   name: "Header",
-  data() {
-    return {
-     viaJs: require("../assets/img/logo/logo.png"),
-      }
-    }
+ 
 };
 </script>
