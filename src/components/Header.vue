@@ -94,6 +94,10 @@
 <script>
 export default {
   name: "Header",
- 
+   data () {
+    return {
+      title: 'Home',
+    }
+   }
 };
 </script>
