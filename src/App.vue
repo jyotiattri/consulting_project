@@ -7,7 +7,7 @@
             <!-- Logo -->
             <div class="col-xl-2 col-lg-2">
               <div class="logo">
-                <a href="index.html"
+                <a href=""
                   ><img :src="viaJs" alt="" /></a
                 >
               </div>
