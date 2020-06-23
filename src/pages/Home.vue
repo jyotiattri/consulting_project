@@ -37,6 +37,16 @@ export default {
     BlogComponent,
     Footer,
   },
+  computed: {
+    username() {
+      retun this.$route.params.username
+    }
+  },
+  methods: {
+    goback() {
+      window.history.length > 1 ? this.$router.go(-1) : this.$router.push('/')
+    }
+  }
 };
 </script>
 

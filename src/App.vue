@@ -50,13 +50,15 @@
 </template>
 
 <script>
+import router from "./router";
 export default {
   name: "App",
    data() {
     return {
      viaJs: require("../assets/img/logo/logo.png"),
       }
-    }
+    },
+    router
 };
 </script>
 
