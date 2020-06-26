@@ -1,11 +1,11 @@
 import Vue from "vue";
-import Home from "../src/pages/Home.vue";
 // import jquery from "jquery";
 import "popper.js";
 // import Bootstrap from "bootstrap";
 import "bootstrap/dist/js/bootstrap";
-import router from "./router";
+// import router from "./router";
 import VueRouter from "vue-router";
+import App from "./App.vue";
 
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faClock} from "@fortawesome/free-solid-svg-icons";
@@ -24,10 +24,10 @@ Vue.component("font-awesome-icon", FontAwesomeIcon);
 Vue.config.productionTip = false;
 
 import Home from "./pages/Home.vue";
-import Home from "./pages/About.vue";
-import Home from "./pages/Blog.vue";
-import Home from "./pages/Services.vue";
-import Home from "./pages/Contact.vue";
+import About from "./pages/About.vue";
+import Blog from "./pages/Blog.vue";
+import Services from "./pages/Services.vue";
+import Contact from "./pages/Contact.vue";
 
 Vue.use(VueRouter);
 const routes = [
@@ -38,13 +38,11 @@ const routes = [
   { path: "/contact", component: Contact }  
 ];
 
-const routes = new VueRouter({
+const router = new VueRouter({
   routes
 });
 
 new Vue({
   render: h => h(App),
-  router,
-  components: { App },
-  template: '<App/>'
+  router
 }).$mount("#app");

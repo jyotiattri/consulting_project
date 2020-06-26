@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <!-- header -->
-    <Header />
     <CategoryComponent />
     <SupportComponent />
     <ServicesComponent />
@@ -15,7 +14,6 @@
 </template>
 
 <script>
-import Header from "../components/Header";
 import teamComponent from "../components/teamComponent";
 import CategoryComponent from "../components/CategoryComponent";
 import SupportComponent from "../components/SupportComponent";
@@ -28,7 +26,6 @@ export default {
   name: "App",
   
   components: {
-    Header,
     teamComponent,
     CategoryComponent,
     SupportComponent,
