@@ -41,7 +41,7 @@
     </div>
     <div class="container">
        <transition name="moveInUp">
-         <router-view/>
+         <router-view></router-view>
        </transition>
         
       </div>
@@ -57,8 +57,7 @@ export default {
     return {
      viaJs: require("../assets/img/logo/logo.png"),
       }
-    },
-    router
+    }
 };
 </script>
 

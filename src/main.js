@@ -5,6 +5,7 @@ import "popper.js";
 // import Bootstrap from "bootstrap";
 import "bootstrap/dist/js/bootstrap";
 import router from "./router";
+import VueRouter from "vue-router";
 
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faClock} from "@fortawesome/free-solid-svg-icons";
@@ -22,8 +23,21 @@ Vue.component("font-awesome-icon", FontAwesomeIcon);
 
 Vue.config.productionTip = false;
 
+Vue.use(VueRouter);
+const routes = [
+  { path: "/home", component: Home },
+  { path: "/about", component: About },
+  { path: "/blog", component: Blog },
+  { path: "/services", component: Services },
+  { path: "/contact", component: Contact }  
+];
+
+const routes = new VueRouter({
+  routes
+});
+
 new Vue({
-  render: h => h(Home),
+  render: h => h(App),
   router,
   components: { App },
   template: '<App/>'

@@ -39,7 +39,7 @@ export default {
   },
   computed: {
     username() {
-      retun this.$route.params.username
+      return this.$route.params.username
     }
   },
   methods: {
