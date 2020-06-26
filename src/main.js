@@ -23,6 +23,12 @@ Vue.component("font-awesome-icon", FontAwesomeIcon);
 
 Vue.config.productionTip = false;
 
+import Home from "./pages/Home.vue";
+import Home from "./pages/About.vue";
+import Home from "./pages/Blog.vue";
+import Home from "./pages/Services.vue";
+import Home from "./pages/Contact.vue";
+
 Vue.use(VueRouter);
 const routes = [
   { path: "/home", component: Home },
