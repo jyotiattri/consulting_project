@@ -1,5 +1,6 @@
 <template>
 <div id="App">
+  <main>
 
   <!-- top header -->
  <div class="header-area">
@@ -65,7 +66,7 @@
 
             <div class="col-xl-10 col-lg-10">
               <div class="menu-wrapper  d-flex align-items-center justify-content-end">
-     <div class="main-menu d-none d-lg-block">
+     <div class="main-menu">
                   <nav>
                     <ul id="navigation">
                          <li class="nav-item">
@@ -90,15 +91,14 @@
     </div>
             </div>
 
-    <div class="container">
-       <transition name="moveInUp">
-         <router-view></router-view>
-       </transition>   
-      </div>
 
 </div>
           </div>
       </div>
+       <transition name="moveInUp">
+         <router-view></router-view>
+       </transition>   
+          </main>
 </div>
 
 
@@ -124,7 +124,7 @@ li.nav-item {
 }
 a.nav-link {
 	color: #0d2d3e;
-	font-weight: 600;
+	font-weight: 400;
 	padding: 39px 19px;
 	display: block;
 	font-size: 16px;
