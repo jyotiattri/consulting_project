@@ -2761,13 +2761,13 @@ hero-btn {
 /* line 797, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
 .section-padding30 {
   padding-top: 195px;
-  padding-bottom: 170px;
+  padding-bottom: 100px;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   /* line 797, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .section-padding30 {
-    padding-top: 195px;
+    padding-top: 100px;
     padding-bottom: 170px;
   }
 }

@@ -7,7 +7,6 @@
     <teamComponent />
     <WanttoworkComponent />
     <BlogComponent />
-    <Footer />
 
 
   </div>
@@ -20,7 +19,6 @@ import SupportComponent from "../components/SupportComponent";
 import ServicesComponent from "../components/ServicesComponent";
 import WanttoworkComponent from "../components/WanttoworkComponent";
 import BlogComponent from "../components/BlogComponent";
-import Footer from "../components/Footer";
 
 export default {
   name: "App",
@@ -32,7 +30,6 @@ export default {
     ServicesComponent,
     WanttoworkComponent,
     BlogComponent,
-    Footer,
   },
   computed: {
     username() {
