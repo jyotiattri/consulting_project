@@ -1,16 +1,18 @@
 <template>
   <div>
-    <h2>About</h2>
-    <p>Alligators were around during the time of the dinosaurs.</p>
+    <AboutOurMisson />
+    <ServicesComponent />
   </div>
 </template>
 
 <script>
+import AboutOurMission from "../components/AboutOurMission";
+import ServicesComponent from "../components/ServicesComponent";
   export default {
     name: 'About',
+    components: {
+      AboutOurMission,
+      ServicesComponent
+    }
   }
 </script>
-
-<style scoped>
-
-</style>
