@@ -246,5 +246,5 @@ a.nav-link.router-link-exact-active.router-link-active {
     color: #14435c;
 }
 </style>
-<style lang="css" src="../styles/style.css"></style>
-<style lang="css" src="../styles/bootstrap.min.css"></style>
+<style lang="css" src="./styles/style.css"></style>
+<style lang="css" src="./styles/bootstrap.min.css"></style>
